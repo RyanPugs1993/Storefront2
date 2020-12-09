@@ -1,0 +1,132 @@
+body {
+    font-size: 100%;
+    font-family: Tahoma, Lucida, sans-serif;
+    background: #642211 url(StoreImg/parchment.png) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    background-size: 80%;
+}
+h1 {
+    color: #000000;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h3 {
+    Color: rgb(175, 108, 108);
+    font-size: 1.3em;
+    padding: 0px;
+    margin: 0.3em 0 0.1em 0;
+}
+p {
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 1em 1em 0px;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+/*Top*/
+
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: #642211 url(StoreImg/Back.jpg) no-repeat fixed center 0px;
+}
+header h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: #f8ad2b;
+    font-size: 7.5em;
+    font-weight: bold;
+    margin: 0;
+}
+nav {
+    color: #000;
+    font-size: 1.7em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.8em 1.1em;
+}
+nav li a:hover {
+    color: #ffffff;
+    background-color: rgba(22, 37, 153, 0.75);
+}
+#utilityMenu {
+    float: Center;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: transparent;
+    height: 1.3em;
+}
+#utilityMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;    
+}
+#sidebar {
+    width: 200px;
+    font-size: .8em;
+    float: Left;
+    position: relative;
+    display: block;
+    background-color: transparent;
+    margin: 1em 0 3.0em 1em;
+    padding: 1em 0.5em 1em 1em;
+    border-right: #ff0000 solid 5px;
+}
+#main {
+    background-color: transparent;
+    margin: 0 0 2.0em;
+    padding: 1.5em  0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+   }
+#panel{
+    float: left;
+    position: relative;
+    width: 500px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: rgb(109, 60, 60);
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+footer {
+    background-color: transparent;
+    font-size: .8em;
+    color: #fff;
+    padding: .5em 1.0em;
+    border-radius: 2em;
+}
+#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 3, 3, 3, 3;
+    border-radius: 2em;
+}
